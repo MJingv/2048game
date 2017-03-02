@@ -31,7 +31,7 @@ function getNumberContent(number){
 
 3.增加喜欢的渐变背景
 
-#background {
+background {
     position:fixed;
     top:0;
     left:0;
