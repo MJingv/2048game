@@ -1,0 +1,30 @@
+{
+  "name": "2048game",
+  "version": "1.0.0",
+  "description": "2048小游戏",
+  "main": "ecosystem.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MJingv/2048game.git"
+  },
+  "keywords": [
+    "2048",
+    "game",
+    "javascript",
+    "html",
+    "css"
+  ],
+  "author": "Jehol",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MJingv/2048game/issues"
+  },
+  "homepage": "https://github.com/MJingv/2048game#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}

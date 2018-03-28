@@ -1,0 +1,27 @@
+{
+    "apps": [
+        {
+            "name": "website",
+            "script": "./app.js",
+            "env": {
+                "COMMON_VARIABLE": "true"
+            },
+            "env_production": {
+                "NODE_ENV": "production"
+            }
+        }
+    ],
+    "deploy": {
+        "production": {
+            "user": "root",
+            "host": "39.106.0.212",
+            "ref": "origin/master",
+            "repo": "https://github.com/MJingv/2048game",
+            "path": "/root/www/website/production",
+            "ssh_options": "StrictHostKeyChecking=no",
+            "env_production": {
+                "NODE_ENV": "production"
+            }
+        }
+    }
+}
